@@ -32,3 +32,10 @@ def Flatgenerator(nested):
 
 for i in Flatgenerator(nested):
     print(i)
+
+
+for k,v in enumerate([555,666,777]):
+    print (k,v)
+
+dik = {k:v for k,v in enumerate([555,666,777])}
+print (dik)
